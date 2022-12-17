@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd hugo
+cd _hugo
 hugo
 mv public/* ..
