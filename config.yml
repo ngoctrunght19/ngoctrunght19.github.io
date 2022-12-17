@@ -1,14 +1,15 @@
-baseURL: http://example.org/
+baseURL: "https://blog.sunnutri.net/"
 languageCode: en-us
-title: My New Hugo Site
-theme: "PaperMod"
+title: ExampleSite
+paginate: 5
+theme: PaperMod
 
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-#googleAnalytics: UA-123-45
+googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
@@ -136,3 +137,4 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
